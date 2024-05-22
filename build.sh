@@ -3,6 +3,7 @@
 set -o errexit
 
 #poetry install
+pip install -r requirements.txt
 
 # se realizara el comando collectstatic en la nube
 python manage.py collectstatic --no-input
